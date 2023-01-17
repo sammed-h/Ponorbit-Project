@@ -1,0 +1,199 @@
+.profileContent {
+  margin-top: 20px;
+  width: 120%;
+  height: 650px;
+}
+
+.navLink {
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+  margin-right: 127px;
+}
+
+.hrLine {
+  width: 160px;
+  margin: 12px 0px 0px 5px;
+  border-top: 1px solid #717171;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 5px;
+  position: relative;
+  display: block;
+  color: #e1e1e1cf;
+}
+
+ul li span {
+  display: block;
+}
+
+.profileHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(211, 210, 210);
+}
+
+.pContainer {
+  display: flex;
+  width: 100%;
+  height: 580px;
+}
+
+.pContentLeft {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  border-right: 1px solid rgb(211, 210, 210);
+  margin-top: 30px;
+  padding-right: 30px;
+}
+
+.profileImg {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: -15px;
+}
+
+.pContentRight {
+  width: 60%;
+  height: 100%;
+  margin: 30px;
+}
+
+.plabel {
+  color: #9f9f9f;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.plabelData {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.pText {
+  font-size: 18px;
+  font-weight: 500;
+  color: #413f3f;
+}
+
+.container {
+  display: flex;
+  text-align: right;
+  padding-bottom: 10px;
+}
+.label {
+  text-align: right;
+  color: #9f9f9f;
+  font-size: 18px;
+  font-weight: 500;
+}
+.value {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+  word-wrap: break-word;
+}
+.label,
+.value {
+  /* display: inline-block; */
+  width: 48%;
+}
+
+/* Right */
+.containerRight {
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.labelRight {
+  text-align: right;
+  color: #9f9f9f;
+  font-size: 18px;
+  font-weight: 500;
+}
+.valueRight {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+  word-wrap: break-word;
+}
+.labelRight,
+.valueRight {
+  /* display: inline-block; */
+  width: 60%;
+}
+
+.hrTwo {
+  width: 250px;
+  border: none;
+  height: 1px;
+  background-color: rgb(211, 210, 210);
+}
+
+.lCompany {
+  color: #a9a3a3;
+  font-size: 18px;
+  font-weight: 500;
+}
+.lAddress {
+  font-size: 20px;
+  font-weight: 500;
+  color: #9f9f9f;
+}
+
+.topLeftProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.topProfileImg {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.topLeftProfile span {
+  color: #717171;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.liActive {
+  background-color: #ffff;
+  width: 200px;
+  border-radius: 15px 0px 0px 15px;
+  padding: 10px;
+  color: #000000;
+}
+.navBar ul li .navLink.active:before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  right: 2px;
+  width: 40px;
+  height: 40px;
+  /* background-color: blue; */
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 30px 0 white;
+}
+.navBar ul li .navLink.active:after {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 40px;
+  /* background: yellow; */
+  right: 2px;
+  top: 40px;
+  border-top-right-radius: 15px;
+  box-shadow: 0 -30px 0 white;
+}

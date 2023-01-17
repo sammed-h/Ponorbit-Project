@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+  width: 6px;
+  height: 50px;
+  position: absolute;
+  right: 5%;
+}
+
+::-webkit-scrollbar-thumb {
+  background: lightgray;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: lightgray;
+}

@@ -1,0 +1,55 @@
+.wrapper {
+  display: block;
+  top: 0;
+  left: 0;
+  transform: translate(80%, 12%);
+  width: 480px;
+  height: 485px;
+  border-radius: 18px;
+  overflow: hidden;
+  padding-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 1000;
+  background-color: white;
+}
+.userListWrapper {
+  width: 475px;
+  height: 380px;
+  background-color: white;
+  overflow-y: scroll;
+  padding-bottom: 30px;
+}
+.userListTitle {
+  background-color: rgb(238, 232, 232);
+  text-align: center;
+  padding: 25px 0;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 18px 18px 0 0;
+  margin-bottom: 15px;
+}
+
+.userList {
+  display: flex;
+  align-items: center;
+  padding: 6px 0;
+  margin: 0 30px;
+  border-bottom: 1px solid lightgray;
+  font-weight: 400;
+  cursor: pointer;
+}
+.userList:hover {
+  font-weight: 600;
+  object-fit: contain;
+}
+.userProfileImg {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.userProfileImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
